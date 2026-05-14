@@ -35,7 +35,7 @@
 .header__logo {
   display: block;
   margin-bottom: 20px;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: clamp(49px, 6vw, 65px);
   text-decoration: none;
   color: currentColor;
@@ -43,7 +43,7 @@
 
 .header__title {
   margin: 0;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: clamp(14px, 2vw, 23px);
   text-transform: uppercase;
 }
@@ -82,7 +82,7 @@
     1px 0 white,
     0 -1px white,
     0 1px white;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   text-transform: uppercase;
   line-height: 1;
@@ -264,7 +264,7 @@
 }
 
 .button__text {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   line-height: 90%;
   position: relative;
@@ -314,7 +314,7 @@
 }
 
 .dialog__text {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   line-height: 1.5;
   text-transform: uppercase;
