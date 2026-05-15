@@ -322,6 +322,7 @@
 
 .dialog__button {
   inline-size: 100%;
+  block-size: 38px;
 }
 
 .dialog::backdrop {
@@ -331,6 +332,7 @@
 @media (width <= 376px) {
   .save-button {
     flex-direction: column;
+    max-inline-size: 306px;
   }
 
   .save-button__icon {
